@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using Aula34MVCConsole.Models;
+
 namespace Aula34MVCConsole.Views
 {
     public class ProdutoView
