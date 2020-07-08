@@ -1,4 +1,6 @@
 ﻿using System;
+using Aula34MVCConsole.Controllers;
+using Aula34MVCConsole.Views;
 
 namespace Aula34MVCConsole
 {
@@ -6,7 +8,8 @@ namespace Aula34MVCConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProdutoController produtos = new ProdutoController();
+            produtos.Buscar("39,99");
         }
     }
 }
